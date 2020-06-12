@@ -15,9 +15,9 @@ public class Palindromi {
 			str = str + array[i];
 		}
 		if (stringa.equalsIgnoreCase(str))
-			System.out.println("La Frase e' palindroma");
+			System.out.println("La Frase"+ stringa+" e' palindroma");
 		else
-			System.out.println("La Frase non e' palindroma");
+			System.out.println("La Frase "+ stringa+" non e' palindroma");
 		scanner.close();
 
 	}
