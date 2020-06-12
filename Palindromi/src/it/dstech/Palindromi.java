@@ -10,14 +10,14 @@ public class Palindromi {
 		System.out.println("inserisci la frase da analizzare");
 		String stringa = scanner.nextLine();
 		char[] array = stringa.toCharArray();
-		String str = " ";
+		String str = "";
 		for (int i = stringa.length() - 1; i >= 0; i--) {
 			str = str + array[i];
 		}
 		if (stringa.equalsIgnoreCase(str))
-			System.out.println("La Frase "+ stringa+" non e' palindroma");
-		else
 			System.out.println("La Frase "+ stringa+"  e' palindroma");
+		else
+			System.out.println("La Frase "+ stringa+" non e' palindroma");
 		scanner.close();
 
 	}
