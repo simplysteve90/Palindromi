@@ -10,7 +10,7 @@ public class Palindromi {
 		System.out.println("inserisci la frase da analizzare");
 		String stringa = scanner.nextLine();
 		char[] array = stringa.toCharArray();
-		String str = "";
+		String str = " ";
 		for (int i = stringa.length() - 1; i >= 0; i--) {
 			str = str + array[i];
 		}
